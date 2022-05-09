@@ -1,3 +1,42 @@
 body {
   background: blanchedalmond;
 }
+
+/* * {
+  border-style: solid;
+  border-radius: 1px;
+  border-color: red;
+} */
+
+.a , .b , .c {
+  text-align: center;
+}
+
+.a {
+  min-height: 2em;
+}
+
+.b {
+  min-height: 5em;
+}
+
+.c {
+  min-height: 2em;
+}
+
+@media (min-width: 600px) {
+  
+  .b {
+    display: inline-block;
+    min-width: 80%;
+    max-width: 80%;
+    
+  }
+
+  .c {
+    display: inline-block;
+    min-height: 5em;
+    min-width: 17%;
+    max-width: 17%;
+  }
+}
